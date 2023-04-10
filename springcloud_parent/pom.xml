@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fct</groupId>
+    <artifactId>springcloud_parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>springcloud_01eureka_server</module>
+        <module>springcloud_02eureka_client</module>
+        <module>springcloud_03consul_client</module>
+        <module>springcloud_04users</module>
+        <module>springcloud_05orders</module>
+        <module>springcloud_6category</module>
+        <module>springcloud_07product</module>
+        <module>springcloud_08hystrix</module>
+        <module>springcloud_09openfeign_hystrix</module>
+        <module>springcloud_09hystrixdashboard</module>
+        <module>springcloud_10gateway</module>
+        <module>springcloud_11config</module>
+        <module>springcloud_12configClient</module>
+    </modules>
+
+    <!--继承springboot的父项目-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.5.RELEASE</version>
+    </parent>
+
+    <properties>
+
+        <!--自定义properties属性-->
+        <spring.cloud-version>Hoxton.SR6</spring.cloud-version>
+    </properties>
+
+
+    <!--维护版本-->
+    <!--让所有在子模块中引用一个依赖而不用显式的列出版本号。
+    也就是子模块不需要列出版本，子模块中的pom依赖会找到dependencyManagement所在jar包的版本，并引用这个jar对应的版本号-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring.cloud-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

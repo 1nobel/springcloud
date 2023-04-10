@@ -1,0 +1,5 @@
+com\fct\entity\Product.class
+com\fct\vos\ProductVO.class
+com\fct\vos\CollectionsVO.class
+com\fct\ProductApplication.class
+com\fct\controller\ProductController.class

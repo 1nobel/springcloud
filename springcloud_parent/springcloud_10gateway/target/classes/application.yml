@@ -1,0 +1,41 @@
+server:
+  port: 7979
+
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+    gateway:
+      routes:
+        - id: category_router # 路由对象唯一标识
+          uri: http://localhost:8015 # 类别服务地址
+          predicates: # 断言 用来配置路由规则
+            - Path=/category
+
+        - id: product_router
+          uri: lb://PRODUCT # 实现负载均衡
+          predicates: # 断言 (请求发送前过滤)
+            - Path=/product/**
+#            - After=2023-03-27T19:09:06.472+08:00[Asia/Shanghai] #该路由规则必须在指定时间之后有效
+            #- Before=2023-03-27T19:15:06.472+08:00[Asia/Shanghai] #该路由规则必须在指定时间之前有效
+#            - Between=2023-03-27T19:07:06.472+08:00[Asia/Shanghai],2023-03-27T19:20:20.472+08:00[Asia/Shanghai] # 在指定时间区间内有效
+#            - Cookie=name,lili
+#            - Cookie=name,[A-Za-z0-9]+  # Cookie断言
+#            - Header=X-Request-Id,\d+ # 请求头断言
+            - Method=GET # 限定指定的请求方式
+
+          filters: # 过滤 断言之后
+            - AddRequestHeader=User-Name, zhangsan # 给路由对象的所有的请求头添加信息
+            - AddRequestParameter=color, blue # 给路由对象请求参数添加信息
+            - AddResponseHeader=X-Response-Red, Blue # 给路由对象的响应头添加信息
+            - StripPrefix=1 # 用来给路由对象的所有转发请求的uri去掉指定前缀
+
+# 开启gateway内置的web配置查看器 http://localhost:7979/actuator/gateway/routes
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

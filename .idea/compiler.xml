@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudalibaba_02users" />
+        <module name="springcloud_03consul_client" />
+        <module name="springcloudalibaba_04configclient" />
+        <module name="springcloud_04users" />
+        <module name="springcloud_05orders" />
+        <module name="springcloud_6category" />
+        <module name="springcloud_02eureka_client" />
+        <module name="springcloud_09hystrixdashboard" />
+        <module name="springcloudalibaba_01nacosclient" />
+        <module name="springcloudalibaba_03products" />
+        <module name="springcloudalibaba_05sentinel" />
+        <module name="springcloudalibaba_07gatewayfix" />
+        <module name="springcloud_06gateway" />
+        <module name="springcloud_01eureka_server" />
+        <module name="springcloud_09openfeign_hystrix" />
+        <module name="springcloud_11config" />
+        <module name="springcloud_10test" />
+        <module name="springcloud_12configClient" />
+        <module name="springcloud_10gateway" />
+        <module name="springcloud_07product" />
+        <module name="springcloud_08hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud_01eureka_server" target="1.8" />
+      <module name="springcloud_02eureka_client" target="1.8" />
+      <module name="springcloud_03consul_client" target="1.8" />
+      <module name="springcloud_04users" target="1.8" />
+      <module name="springcloud_05orders" target="1.8" />
+      <module name="springcloud_06gateway" target="1.8" />
+      <module name="springcloud_07product" target="1.8" />
+      <module name="springcloud_08hystrix" target="1.8" />
+      <module name="springcloud_09hystrixdashboard" target="1.8" />
+      <module name="springcloud_09openfeign_hystrix" target="1.8" />
+      <module name="springcloud_10gateway" target="1.8" />
+      <module name="springcloud_10test" target="1.8" />
+      <module name="springcloud_11config" target="1.8" />
+      <module name="springcloud_12configClient" target="1.8" />
+      <module name="springcloud_6category" target="1.8" />
+      <module name="springcloud_parent" target="1.8" />
+      <module name="springcloudalibaba_01nacosclient" target="1.8" />
+      <module name="springcloudalibaba_02users" target="1.8" />
+      <module name="springcloudalibaba_03products" target="1.8" />
+      <module name="springcloudalibaba_04configclient" target="1.8" />
+      <module name="springcloudalibaba_05sentinel" target="1.8" />
+      <module name="springcloudalibaba_07gatewayfix" target="1.8" />
+      <module name="springcloudalibaba_parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud_01eureka_server" options="-parameters" />
+      <module name="springcloud_02eureka_client" options="-parameters" />
+      <module name="springcloud_03consul_client" options="-parameters" />
+      <module name="springcloud_04users" options="-parameters" />
+      <module name="springcloud_05orders" options="-parameters" />
+      <module name="springcloud_06gateway" options="-parameters" />
+      <module name="springcloud_07product" options="-parameters" />
+      <module name="springcloud_08hystrix" options="-parameters" />
+      <module name="springcloud_09hystrixdashboard" options="-parameters" />
+      <module name="springcloud_09openfeign_hystrix" options="-parameters" />
+      <module name="springcloud_10gateway" options="-parameters" />
+      <module name="springcloud_10test" options="-parameters" />
+      <module name="springcloud_11config" options="-parameters" />
+      <module name="springcloud_12configClient" options="-parameters" />
+      <module name="springcloud_6category" options="-parameters" />
+      <module name="springcloud_parent" options="-parameters" />
+      <module name="springcloudalibaba_01nacosclient" options="-parameters" />
+      <module name="springcloudalibaba_02users" options="-parameters" />
+      <module name="springcloudalibaba_03products" options="-parameters" />
+      <module name="springcloudalibaba_04configclient" options="-parameters" />
+      <module name="springcloudalibaba_05sentinel" options="-parameters" />
+      <module name="springcloudalibaba_07gatewayfix" options="-parameters" />
+      <module name="springcloudalibaba_parent" options="-parameters" />
+    </option>
+  </component>
+</project>

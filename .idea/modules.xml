@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/springcloud_01eureka_server.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/springcloud_01eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/springcloud_02eureka_client.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/springcloud_02eureka_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_03consul_client/springcloud_03consul_client.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_03consul_client/springcloud_03consul_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_04users/springcloud_04users.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/springcloud_04users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_05orders/springcloud_05orders.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/springcloud_05orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloud_06gateway/springcloud_06gateway.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloud_06gateway/springcloud_06gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_07product/springcloud_07product.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/springcloud_07product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_08hystrix/springcloud_08hystrix.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_08hystrix/springcloud_08hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_09hystrixdashboard/springcloud_09hystrixdashboard.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_09hystrixdashboard/springcloud_09hystrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_09openfeign_hystrix/springcloud_09openfeign_hystrix.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_09openfeign_hystrix/springcloud_09openfeign_hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_10gateway/springcloud_10gateway.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_10gateway/springcloud_10gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloud_10test/springcloud_10test.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloud_10test/springcloud_10test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_11config/springcloud_11config.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_11config/springcloud_11config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_12configClient/springcloud_12configClient.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_12configClient/springcloud_12configClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_6category/springcloud_6category.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_6category/springcloud_6category.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_parent.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_01nacosclient/springcloudalibaba_01nacosclient.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_01nacosclient/springcloudalibaba_01nacosclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_02users/springcloudalibaba_02users.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_02users/springcloudalibaba_02users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_03products/springcloudalibaba_03products.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_03products/springcloudalibaba_03products.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_04configclient/springcloudalibaba_04configclient.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_04configclient/springcloudalibaba_04configclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_05sentinel/springcloudalibaba_05sentinel.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_05sentinel/springcloudalibaba_05sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_07gatewayfix/springcloudalibaba_07gatewayfix.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_07gatewayfix/springcloudalibaba_07gatewayfix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_parent.iml" filepath="$PROJECT_DIR$/springcloudalibaba_parent/springcloudalibaba_parent.iml" />
+    </modules>
+  </component>
+</project>

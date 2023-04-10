@@ -1,0 +1,4 @@
+com\fct\feign\HystrixClient.class
+com\fct\FeignHystrixApplication.class
+com\fct\controller\FeignHystrixController.class
+com\fct\feign\HystrixClientImpl.class
